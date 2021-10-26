@@ -1,0 +1,47 @@
+.recepcion {
+    background-color: rgba(150, 150, 150, 0.5);
+    color: rgb(231, 217, 154);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    align-items: center;
+    height: 100vh;
+    width: 80%;
+    padding: 50px;
+    /* padding: 50px 50px 0px 50px; */
+}
+
+.recepcion > .recepcion-content > .title {
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    /* padding: 30px 0px; */
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+.recepcion > .recepcion-content > .title > div{
+    font-family: 'Dancing Script', cursive;
+}
+
+.recepcion > .recepcion-content > .title h2 {
+    font-size: 3rem;
+    font-weight: 900;
+    /* align-content: center; */
+    
+}
+
+.recepcion > .recepcion-content h3 {
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.recepcion > .recepcion-content p {
+    font-size: 1.5em;
+    color: rgb(12, 36, 36);
+    font-weight: 400;
+}
+
+.recepcion > .recepcion-content i {
+    font-size: 2.5em;
+}
